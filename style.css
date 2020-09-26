@@ -1,0 +1,76 @@
+
+
+/* The idea was teken from: C:\Users\javir\CodingBootcamp\utor-tor-fsf-pt-09-2020-u-c\01-HTML-Git-CSS\01-Activities\09-FloatLayout-Activity\Solved\floats.css */
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+  }
+  
+  #body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    background-color: #bacccb00;
+  }
+  
+  #header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(252, 248, 248);
+    background: #00000a;
+  }
+  
+  
+  .img-responsive {
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    background: #30948D;
+  }
+  
+  #text {
+    float: left;
+    width: 33.3%;
+    color: #fff;
+    background: #9E1212;
+  }
+  
+  #right {
+    float: left;
+    width: 33.3%;
+    color: #fff;
+    background: #30948D;
+  }
+  
+  #full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    color: #fff;
+    background: #394549;
+  }
+  
+  #division {
+    padding: 20px;
+    margin-top: 20px;
+    background: #214fb3;
+  }
+  
+  aside {
+    float: left;
+    width: 33%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    background: #a6b747;
+    border: 1px solid #eee;
+  }
+  
+  footer {
+    padding: 20px;
+    clear: both;
+    background: #FFA500;
+  }
